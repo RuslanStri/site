@@ -37,7 +37,8 @@ function change() {
 		for (let i=0;i<arrOfImg.length;i++) 
 			arrOfImg[i].setAttribute("src", "images/" + arrLong[i]);
 
-		this.setAttribute("class","selected");
+
+		document.querySelector("#long").setAttribute("class","selected");
 		document.querySelector("#middle").setAttribute("class","");
 		document.querySelector("#easy").setAttribute("class","");
 	}
