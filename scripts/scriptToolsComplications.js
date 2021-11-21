@@ -39,6 +39,6 @@ function change() {
 
 		this.setAttribute("class","selected");
 		document.querySelector("#middle").setAttribute("class","");
-		document.querySelector("#long").setAttribute("class","");
+		document.querySelector("#easy").setAttribute("class","");
 	}
 }
